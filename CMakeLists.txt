@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(waldo)
+enable_testing()
 
-add_executable(waldo main.cpp)
+find_package(OpenCL REQUIRED)
 
-install(TARGETS waldo RUNTIME DESTINATION bin)
+add_subdirectory(src)
