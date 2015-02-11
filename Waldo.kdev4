@@ -1,0 +1,4 @@
+[Project]
+Name=Waldo
+Manager=KDevCMakeManager
+VersionControl=kdevgit
